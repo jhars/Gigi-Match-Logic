@@ -1,0 +1,918 @@
+
+
+	{
+		user_id: STRING,
+		
+		hourly_charge_rate: 20,
+		
+		schedule: {
+
+			has_schedule: true,
+			
+			type: {
+
+				job_posts: {
+					[
+						start_time: DATE/TIME,
+						end_time: DATE/TIME
+					]
+				},
+
+				weekly: {
+					sunday: {
+						0:false,
+						1:false,
+						2:false,
+						3:false,
+						4:false
+					},
+					monday: {
+						0:false,
+						1:true,
+						2:true,
+						3:false,
+						4:false
+					},
+					tuesday: {
+						0:false,
+						1:false,
+						2:false,
+						3:false,
+						4:false
+					},
+					wednesday: {
+						0:false,
+						1:true,
+						2:true,
+						3:false,
+						4:false
+					},
+					thursday: {
+						0:false,
+						1:false,
+						2:false,
+						3:false,
+						4:false
+					},
+					friday: {
+						0:false,
+						1:true,
+						2:true,
+						3:false,
+						4:false
+					},
+					saturday: {
+						0:false,
+						1:false,
+						2:false,
+						3:false,
+						4:false
+					
+				}
+			}
+				
+		},
+		super_powers: ["Daycare","Active","Flexible Timing"],
+		social: {
+			facebook_id: STRING,
+			linkedin_id: STRING
+		},
+		location: {
+			street_address:
+			address_2:
+			zip: (city/state?)
+		},
+		pid: {
+			first_name:"Kathy"
+			last_name: "Vazquez"
+			phone:
+			email:
+		}
+	},
+	
+	{
+		user_id: STRING,
+		
+		hourly_charge_rate: 20,
+		
+		schedule: {
+
+			has_schedule: true,
+			
+			type: {
+
+				job_posts: {
+					[
+						start_time: DATE/TIME,
+						end_time: DATE/TIME
+					]
+				},
+
+				weekly: {
+					sunday: {
+						0:true,
+						1:true,
+						2:true,
+						3:true,
+						4:true
+					},
+					monday: {
+						0:true,
+						1:true,
+						2:true,
+						3:true,
+						4:true
+					},
+					tuesday: {
+						0:false,
+						1:false,
+						2:false,
+						3:false,
+						4:false
+					},
+					wednesday: {
+						0:false,
+						1:false,
+						2:true,
+						3:true,
+						4:true
+					},
+					thursday: {
+						0:false,
+						1:false,
+						2:false,
+						3:false,
+						4:true
+					},
+					friday: {
+						0:true,
+						1:true,
+						2:true,
+						3:true,
+						4:true
+					},
+					saturday: {
+						0:true,
+						1:true,
+						2:true,
+						3:true,
+						4:true
+					},
+					
+				}
+			}
+				
+		},
+		super_powers: ["Great cook", "Active", "Flexible Timing"],
+		social: {
+			facebook_id: STRING,
+			linkedin_id: STRING
+		},
+		location: {
+			street_address:
+			address_2:
+			zip: (city/state?)
+		},
+		pid: {
+			first_name:"Anjali"
+			last_name:"Harris"
+			phone:
+			email:
+		}
+	},
+	
+	{
+		user_id: STRING,
+		
+		hourly_charge_rate: 20,
+		
+		schedule: {
+
+			has_schedule: true,
+			
+			type: {
+
+				job_posts: {
+					[
+						start_time: DATE/TIME,
+						end_time: DATE/TIME
+					]
+				},
+
+				weekly: {
+					sunday: {
+						0:true,
+						1:true,
+						2:true,
+						3:true,
+						4:true
+					},
+					monday: {
+						0:false,
+						1:false,
+						2:false,
+						3:true,
+						4:true
+					},
+					tuesday: {
+						0:false,
+						1:false,
+						2:false,
+						3:true,
+						4:true
+					},
+					wednesday: {
+						0:false,
+						1:false,
+						2:false,
+						3:true,
+						4:true
+					},
+					thursday: {
+						0:false,
+						1:false,
+						2:false,
+						3:true,
+						4:true
+					},
+					friday: {
+						0:false,
+						1:false,
+						2:false,
+						3:true,
+						4:true
+					},
+					saturday: {
+						0:true,
+						1:true,
+						2:true,
+						3:true,
+						4:true
+					},
+					
+				}
+			}
+				
+		},
+		super_powers: ["Active", "Organised", "Bilingual"],
+		social: {
+			facebook_id: STRING,
+			linkedin_id: STRING
+		},
+		location: {
+			street_address:
+			address_2:
+			zip: (city/state?)
+		},
+		pid: {
+			first_name:"Cristina"
+			last_name:"Ramos"
+			phone:
+			email:
+		}
+	},
+	
+	{
+		user_id: STRING,
+		
+		hourly_charge_rate: 18,
+		
+		schedule: {
+
+			has_schedule: true,
+			
+			type: {
+
+				job_posts: {
+					[
+						start_time: DATE/TIME,
+						end_time: DATE/TIME
+					]
+				},
+
+				weekly: {
+					sunday: {
+						0:false,
+						1:true,
+						2:true,
+						3:true,
+						4:false
+					},
+					monday: {
+					  0:false,
+						1:false,
+						2:false,
+						3:false,
+						4:false
+					},
+					tuesday: {
+					  0:false,
+						1:false,
+						2:false,
+						3:false,
+						4:false
+					},
+					wednesday: {
+						0:false,
+						1:false,
+						2:false,
+						3:false,
+						4:false
+					},
+					thursday: {
+						0:false,
+						1:false,
+						2:false,
+						3:false,
+						4:false
+					},
+					friday: {
+						0:false,
+						1:false,
+						2:true,
+						3:true,
+						4:false
+					},
+					saturday: {
+					  0:false,
+						1:true,
+						2:true,
+						3:true,
+						4:false
+					},
+					
+				}
+			}
+				
+		},
+		super_powers: ["Performing Arts","Communication", "Tutor"],
+		social: {
+			facebook_id: STRING,
+			linkedin_id: STRING
+		},
+		location: {
+			street_address:
+			address_2:
+			zip: (city/state?)
+		},
+		pid: {
+			first_name:"Kristal"
+			last_name:"Gordon"
+			phone:
+			email:
+		}
+	},
+	
+	{
+		user_id: STRING,
+		
+		hourly_charge_rate:18 ,
+		
+		schedule: {
+
+			has_schedule: true,
+			
+			type: {
+
+				job_posts: {
+					[
+						start_time: DATE/TIME,
+						end_time: DATE/TIME
+					]
+				},
+
+				weekly: {
+					sunday: {
+						0:true,
+						1:true,
+						2:true,
+						3:true,
+						4:true
+					},
+					monday: {
+						0:false,
+						1:false,
+						2:false,
+						3:true,
+						4:true
+					},
+					tuesday: {
+						0:false,
+						1:false,
+						2:false,
+						3:true,
+						4:true
+					},
+					wednesday: {
+						0:false,
+						1:false,
+						2:false,
+						3:true,
+						4:true
+					},
+					thursday: {
+						0:false,
+						1:false,
+						2:false,
+						3:true,
+						4:true
+					},
+					friday: {
+						0:false,
+						1:false,
+						2:false,
+						3:true,
+						4:true
+					},
+					saturday: {
+						0:true,
+						1:true,
+						2:true,
+						3:true,
+						4:true
+					},
+					
+				}
+			}
+				
+		},
+		super_powers: ["Active","Flexible Timing","Communication"],
+		social: {
+			facebook_id: STRING,
+			linkedin_id: STRING
+		},
+		location: {
+			street_address:
+			address_2:
+			zip: (city/state?)
+		},
+		pid: {
+			first_name:"Chrishana"
+			last_name:"White"
+			phone:
+			email:
+		}
+	},
+	
+	{
+		user_id: STRING,
+		
+		hourly_charge_rate: 18,
+		
+		schedule: {
+
+			has_schedule: true,
+			
+			type: {
+
+				job_posts: {
+					[
+						start_time: DATE/TIME,
+						end_time: DATE/TIME
+					]
+				},
+
+				weekly: {
+					sunday: {
+						0:false,
+						1:true,
+						2:true,
+						3:true,
+						4:false
+					},
+					monday: {
+						0:false,
+						1:false,
+						2:false,
+						3:false,
+						4:false
+					},
+					tuesday: {
+						0:false,
+						1:false,
+						2:false,
+						3:false,
+						4:false
+					},
+					wednesday: {
+						0:false,
+						1:false,
+						2:false,
+						3:false,
+						4:false
+					},
+					thursday: {
+						0:false,
+						1:false,
+						2:false,
+						3:false,
+						4:false
+					},
+					friday: {
+						0:false,
+						1:false,
+						2:false,
+						3:true,
+						4:true
+					},
+					saturday: {
+						0:false,
+						1:true,
+						2:true,
+						3:true,
+						4:false
+					},
+					
+				}
+			}
+				
+		},
+		super_powers: ["Musical","Active","Organised"],
+		social: {
+			facebook_id: STRING,
+			linkedin_id: STRING
+		},
+		location: {
+			street_address:
+			address_2:
+			zip: (city/state?)
+		},
+		pid: {
+			first_name:"Margaux"
+			last_name:"Sica"
+			phone:
+			email:
+		}
+	},
+	
+	{
+		user_id: STRING,
+		
+		hourly_charge_rate:18,
+		
+		schedule: {
+
+			has_schedule: true,
+			
+			type: {
+
+				job_posts: {
+					[
+						start_time: DATE/TIME,
+						end_time: DATE/TIME
+					]
+				},
+
+				weekly: {
+					sunday: {
+						0:true,
+						1:true,
+						2:true,
+						3:true,
+						4:true
+					},
+					monday: {
+						0:false,
+						1:false,
+						2:false,
+						3:true,
+						4:true
+					},
+					tuesday: {
+						0:false,
+						1:false,
+						2:false,
+						3:true,
+						4:true
+					},
+					wednesday: {
+						0:false,
+						1:false,
+						2:false,
+						3:true,
+						4:true
+					},
+					thursday: {
+						0:false,
+						1:false,
+						2:false,
+						3:true,
+						4:true
+					},
+					friday: {
+						0:true,
+						1:true,
+						2:true,
+						3:true,
+						4:true
+					},
+					saturday: {
+						0:true,
+						1:true,
+						2:true,
+						3:true,
+						4:true
+					},
+					
+				}
+			}
+				
+		},
+		super_powers: ["CPR & First Aid","Problem Solver","Active"],
+		social: {
+			facebook_id: STRING,
+			linkedin_id: STRING
+		},
+		location: {
+			street_address:
+			address_2:
+			zip: (city/state?)
+		},
+		pid: {
+			first_name:"Lynette"
+			last_name:"Thomas"
+			phone:
+			email:
+		}
+	},
+	
+	{
+		user_id: STRING,
+		
+		hourly_charge_rate:15,
+		
+		schedule: {
+
+			has_schedule: true,
+			
+			type: {
+
+				job_posts: {
+					[
+						start_time: DATE/TIME,
+						end_time: DATE/TIME
+					]
+				},
+
+				weekly: {
+					sunday: {
+						0:false,
+						1:true,
+						2:true,
+						3:false,
+						4:false
+					},
+					monday: {
+						0:false,
+						1:true,
+						2:true,
+						3:true,
+						4:false
+					},
+					tuesday: {
+						0:false,
+						1:true,
+						2:true,
+						3:true,
+						4:false
+					},
+					wednesday: {
+						0:false,
+						1:true,
+						2:true,
+						3:true,
+						4:false
+					},
+					thursday: {
+						0:false,
+						1:true,
+						2:true,
+						3:true,
+						4:false
+					},
+					friday: {
+						0:false,
+						1:true,
+						2:true,
+						3:true,
+						4:false
+					},
+					saturday: {
+						0:false,
+						1:true,
+						2:true,
+						3:false,
+						4:false
+					},
+					
+				}
+			}
+				
+		},
+		super_powers: ["Problem Solver","CPR & First Aid","Educator"],
+		social: {
+			facebook_id: STRING,
+			linkedin_id: STRING
+		},
+		location: {
+			street_address:
+			address_2:
+			zip: (city/state?)
+		},
+		pid: {
+			first_name:"Adiyah"
+			last_name:"Harrigan"
+			phone:
+			email:
+		}
+	},
+	
+	{
+		user_id: STRING,
+		
+		hourly_charge_rate:18,
+		
+		schedule: {
+
+			has_schedule: false,
+			
+			type: {
+
+				job_posts: {
+					[
+						start_time: DATE/TIME,
+						end_time: DATE/TIME
+					]
+				},
+
+				weekly: {
+					sunday: {
+						0:false,
+						1:false,
+						2:false,
+						3:false,
+						4:false
+					},
+					monday: {
+						0:false,
+						1:false,
+						2:false,
+						3:false,
+						4:false
+					},
+					tuesday: {
+						0:false,
+						1:false,
+						2:false,
+						3:false,
+						4:false
+					},
+					wednesday: {
+						0:false,
+						1:false,
+						2:false,
+						3:false,
+						4:false
+					},
+					thursday: {
+						0:false,
+						1:false,
+						2:false,
+						3:false,
+						4:false
+					},
+					friday: {
+						0:false,
+						1:false,
+						2:false,
+						3:false,
+						4:false
+					},
+					saturday: {
+						0:false,
+						1:false,
+						2:false,
+						3:false,
+						4:false
+					},
+					
+				}
+			}
+				
+		},
+		super_powers: ["Flexible Timing","Communicator","Daycare"],
+		social: {
+			facebook_id: STRING,
+			linkedin_id: STRING
+		},
+		location: {
+			street_address:
+			address_2:
+			zip: (city/state?)
+		},
+		pid: {
+			first_name:"Lindsey"
+			last_name:"Miller"
+			phone:
+			email:
+		}
+	},
+	
+	{
+		user_id: STRING,
+		
+		hourly_charge_rate:15,
+		
+		schedule: {
+
+			has_schedule: false,
+			
+			type: {
+
+				job_posts: {
+					[
+						start_time: DATE/TIME,
+						end_time: DATE/TIME
+					]
+				},
+
+				weekly: {
+					sunday: {
+						0:false,
+						1:false,
+						2:false,
+						3:false,
+						4:false
+					},
+					monday: {
+						0:false,
+						1:false,
+						2:false,
+						3:false,
+						4:false
+					},
+					tuesday: {
+						0:false,
+						1:false,
+						2:false,
+						3:false,
+						4:false
+					},
+					wednesday: {
+						0:false,
+						1:false,
+						2:false,
+						3:false,
+						4:false
+					},
+					thursday: {
+						0:false,
+						1:false,
+						2:false,
+						3:false,
+						4:false
+					},
+					friday: {
+						0:false,
+						1:false,
+						2:false,
+						3:false,
+						4:false
+					},
+					saturday: {
+						0:false,
+						1:false,
+						2:false,
+						3:false,
+						4:false
+					},
+					
+				}
+			}
+				
+		},
+		super_powers: ["Active","Great Cook","Communicator"],
+		social: {
+			facebook_id: STRING,
+			linkedin_id: STRING
+		},
+		location: {
+			street_address:
+			address_2:
+			zip: (city/state?)
+		},
+		pid: {
+			first_name:"Sonnie"
+			last_name:"Givens"
+			phone:
+			email:
+		}
+	}
+	
+	
+	
+	
+	
+	
+	
+	
